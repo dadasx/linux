@@ -24,6 +24,13 @@ sudo btrfs subvolume list /
 
 echo "                          "
 
+echo "--------------------------"
+echo "  show /etc/fstab ...     "
+echo "--------------------------"
+echo "                          "
+
+sudo cat /etc/fstab
+
 echo "-----------------------------------------"
 echo "  complete btrfs subvolume list ...      "
 echo "  B06170026 2020/09/28 final             "
